@@ -1,0 +1,21 @@
+{
+  "name": "rainbowbot",
+  "version": "1.0.0",
+  "description": "Randomly changes peoples discord role color.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rainbow",
+    "bot",
+    "discord",
+    "role"
+  ],
+  "author": "Ashleigh Carr",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "randomcolor": "^0.5.3"
+  }
+}
