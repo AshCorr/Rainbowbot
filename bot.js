@@ -66,8 +66,6 @@ class Bot {
     } 
     
     saveServers() {
-        console.log(this.servers);
-        console.log(JSON.stringify(this.servers));
         fs.writeFileSync("./servers.json", JSON.stringify(this.servers), "utf8");
         this.log("Saved servers file.");
     }
